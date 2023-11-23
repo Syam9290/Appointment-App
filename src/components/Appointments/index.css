@@ -1,0 +1,87 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bgContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.AppointmentContainer {
+  width: 93%;
+  height: 90%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+
+.AppointmentTopContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formContainer {
+  margin-top: 50px;
+}
+
+.titlebox {
+  height: 29px;
+  width: 400px;
+  border: 1px solid #b5b7c4;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #b5b7c4;
+  font-size: 10px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.addBtn {
+  background-color: #8b5cf6;
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+.img {
+  height: 300px;
+  width: 400px;
+}
+
+.starredBtn {
+  border: 2px solid #8b5cf6;
+  color: #8b5cf6;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 60px;
+  height: 27px;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.appointmentListContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+  padding: 0px;
+}
